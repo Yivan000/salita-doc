@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Platform support for Salita
 ---
 
@@ -20,7 +19,7 @@ Due to the different capabilities and limitations for each platform, some featur
 | Feature | Android | iOS* | Windows | macOS* | Linux** | Web
 | -- | -- | -- | -- | -- | -- | --
 | Offline support | ✓ | ✓ | ✓ | ✓ | ✓ | ✗
-| Bottom banner ad for entries | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✗
+| Bottom banner ad for entries | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ 
 | Preferences save on exit | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ 
 | Customizable window title bar | N/A | N/A | ✓ | ✗ | ✓ | N/A
 
