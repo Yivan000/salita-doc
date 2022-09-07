@@ -7,6 +7,10 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 show_downloads: true
 
+# SITE CONFIGURATION
+baseurl: "salita-doc"
+url: "https://yivan000.github.io"
+
 defaults:
   -
     scope:
