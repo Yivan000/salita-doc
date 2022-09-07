@@ -27,6 +27,8 @@ Due to the different capabilities and limitations for each platform, some featur
 ---
 <small>
 *: Apple platforms are technically supported by Salita, however, I have not compiled a functional application for them to use. This is because I do not own nor have the money to own these devices to develop Salita on, let alone publish in their app stores.
+</small>
 
+<small>
 **: Linux support coming soon.
 </small>
