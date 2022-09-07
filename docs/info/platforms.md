@@ -20,7 +20,7 @@ Due to the different capabilities and limitations for each platform, some featur
 | -- | -- | -- | -- | -- | -- | --
 | Offline support | ✓ | ✓ | ✓ | ✓ | ✓ | ✗
 | Bottom banner ad for entries | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ 
-| Preferences save on exit | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ 
+| Preferences and local history save on exit | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ 
 | Customizable window title bar | N/A | N/A | ✓ | ✗ | ✓ | N/A
 
 ---
