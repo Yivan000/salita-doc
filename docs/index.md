@@ -1,5 +1,6 @@
 ---
 title: Salita
+layout: homepage
 ---
 
 # Salita
