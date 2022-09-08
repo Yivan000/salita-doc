@@ -9,7 +9,7 @@ plugins:
 show_downloads: true
 
 # SITE CONFIGURATION
-baseurl: "/salita-doc"
+baseurl: "/salita-doc/docs"
 url: "https://yivan000.github.io"
 
 defaults:
