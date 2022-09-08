@@ -20,7 +20,17 @@
     </nav>
 
     <main id="content" class="main-content" role="main">
-      {{ content }}
+
+      <table style="width:100%; border:none">
+        <tr>
+          <td style="width:80%">
+            {{ content }}
+          </td>
+          <td style="width:20%">
+            {% include toc.html html=content %}
+          </td>
+        </tr>
+      </table>
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
