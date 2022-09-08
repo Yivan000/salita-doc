@@ -21,11 +21,11 @@
   <a id="skip-to-content" href="#content">Skip to the content.</a>
 
   <nav style="height:50px;background-color: #159957; width: 100%;">
-    <a href="{{ site.github.url }}">
-      <h1 class="project-name" style="font-size: 2.25rem; font-family: 'Raleway', sans-serif; padding-left: 1em; ">
-        <span style="font-family: 'Noto Sans Tagalog';">ᜐ</span> {{ site.title | default: site.github.repository_name }}
+    
+      <h1 class="project-name" style="font-size: 2.25rem; font-family: 'Raleway', sans-serif; padding-left: 1em; font-weight: normal;">
+        <span style="font-family: 'Noto Sans Tagalog';">ᜐ</span> <a href="{{ site.github.url }}" style="color: white;"> {{ site.title | default: site.github.repository_name }} </a>
       </h1>
-    </a>
+    
   </nav>
 
 
@@ -37,13 +37,13 @@
           {{ content }}
         </main>
       </td>
-      <td style="width:20%; border:none; padding: 0; vertical-align: top;">
+      <td style="width:20%; border:none; vertical-align: top; padding: 1em;">
         {% include toc.html html=content h_min=2 %}
       </td>
     </tr>
   </table>
 
-  <footer class="site-footer">
+  <footer class="site-footer" style="padding:2em">
     {% if site.github.is_project_page %}
     <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
     {% endif %}
