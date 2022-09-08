@@ -2,6 +2,6 @@
 title: Salita FAQs
 ---
 
-# Frequently Asked Questions (FAQs) about Salita
+# Frequently Asked Questions (FAQs)
 
 *coming soon*
