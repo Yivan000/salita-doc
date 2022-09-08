@@ -4,7 +4,8 @@ description: A dictionary that contains *all* words from *all* languages.
 #theme: cayman
 remote_theme: pages-themes/cayman
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-include-cache
 show_downloads: true
 
 # SITE CONFIGURATION
