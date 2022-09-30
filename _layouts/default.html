@@ -23,10 +23,12 @@
 
   <nav style="height:50px;background-color: #6200ee; width: 100%;">
     
-      <h1 class="project-name" style="font-size: 2.25rem; font-family: 'Raleway', sans-serif; padding-left: 1em; font-weight: normal; color: white;">
-        <span style="font-family: 'Noto Sans Tagalog';">ᜐ</span> <a href="{{ site.github.url }}" style="color: white;"> {{ site.title | default: site.github.repository_name }} </a> 
-        <a href="{{ site.github.url }}/download"> Download </a> 
-        <a href="{{ site.github.url }}/docs/about"> Documentation </a> 
+      <h1 class="project-name" style="font-size: 2.25rem; font-family: 'Raleway', sans-serif; padding-left: 1em; font-weight: normal;">
+        <span style="font-family: 'Noto Sans Tagalog';">ᜐ</span> <a href="{{ site.github.url }}" style="color: white;"> {{ site.title | default: site.github.repository_name }} </a> | 
+        <span style=" color: white; font-size: 1.5rem;">
+          <a href="{{ site.github.url }}/download"> Download </a> 
+          <a href="{{ site.github.url }}/docs/about"> Documentation </a> 
+        </span>
       </h1>
     
   </nav>
@@ -34,7 +36,7 @@
 
   <table style="width:100%; border:none">
     <tr>
-      <td style="width:20%; border:none; vertical-align: top; padding: 1em;">
+      <td style="width:20%; border-right: 1px solid gray; vertical-align: top; padding: 1em;">
         {% include sidebar.html %}
       </td>
       <td style="width:60%; border:none; padding: 0;">
@@ -43,6 +45,7 @@
         </main>
       </td>
       <td style="width:20%; border:none; vertical-align: top; padding: 1em;">
+        Contents <br/>
         {% include toc.html html=content h_min=2 %}
       </td>
     </tr>
