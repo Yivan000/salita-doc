@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <!-- Google Fonts -->
   <link rel="stylesheet  href=" https://fonts.googleapis.com/css2?family=Noto+Sans+Tagalog&family=Raleway">
-  <link rel="icon" type="image/x-icon" href="/favicon.png">
+  <link rel="icon" type="image/x-icon" href="{{ '/favicon.png' | relative_url }}">
   {% include head-custom.html %}
 </head>
 
@@ -24,11 +24,12 @@
   <nav style="height:50px;background-color: #6200ee; width: 100%;">
     
       <h1 class="project-name" style="font-size: 2.25rem; font-family: 'Raleway', sans-serif; padding-left: 1em; font-weight: normal; color: white;">
-        <span style="font-family: 'Noto Sans Tagalog';">ᜐ</span> <a href="{{ site.github.url }}"> {{ site.title | default: site.github.repository_name }} </a>
+        <span style="font-family: 'Noto Sans Tagalog';">ᜐ</span> <a href="{{ site.github.url }}" style="color: white;"> {{ site.title | default: site.github.repository_name }} </a> 
+        <a href="{{ site.github.url }}/download">Download</a> 
+        <a href="{{ site.github.url }}/docs/about">Documentation</a> 
       </h1>
     
   </nav>
-
 
 
   <table style="width:100%; border:none">
