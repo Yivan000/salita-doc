@@ -5,6 +5,16 @@ title: Download Salita
 # Download Salita
 *coming soon*
 
+## Android
+*coming soon*
+
+## Windows
+*coming soon*
+
+## Web
+*coming soon*
+
+---
 ## Github releases
 *coming soon*
 
