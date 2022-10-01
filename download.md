@@ -3,20 +3,20 @@ title: Download Salita
 ---
 
 # Download Salita
-*coming soon*
 
 ## Android
-*coming soon*
+* [Download on Google Play](https://play.google.com/store/apps/details?id=com.tudlang.salita)
 
 ## Windows
-*coming soon*
+* [Download on the Microsoft Store]()
 
 ## Web
-*coming soon*
+* [Visit Salita for Web](https://yivan000.github.io/salita-web)
 
 ---
 ## Github releases
 *coming soon*
 
-## Source code
-<a href="{{ site.github.zip_url }}" class="btn">Download .zip</a><a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+## Latest source code
+* <a href="{{ site.github.zip_url }}">Download .zip</a>
+* <a href="{{ site.github.tar_url }}">Download .tar.gz</a>
