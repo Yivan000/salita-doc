@@ -8,10 +8,10 @@ title: Download Salita
 * [Download on Google Play](https://play.google.com/store/apps/details?id=com.tudlang.salita)
 
 ## Windows
-* [Download on the Microsoft Store]()
+* [Download on the Microsoft Store](https://www.microsoft.com/store/apps/9P1NQJ4WBJNW)
 
 ## Web
-* [Visit Salita for Web](https://yivan000.github.io/salita-web)
+* [Visit Salita for Web](https://tudlang.github.io/salita-web)
 
 ---
 ## Github releases

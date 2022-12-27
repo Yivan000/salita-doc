@@ -10,7 +10,7 @@ show_downloads: true
 
 # SITE CONFIGURATION
 baseurl: "/salita-doc"
-url: "https://yivan000.github.io"
+url: "https://tudlang.github.io"
 
 defaults:
   -
